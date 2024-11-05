@@ -61,7 +61,7 @@ HALF-SUBRACTOR :
 
 
 **Program:**
-
+```
 module EXP03(a,b,cy,sm,df,bo);
 input a,b;
 output sm,cy,df,bo;
@@ -70,6 +70,8 @@ and(cy,a,b);
 xor(df,a,b);
 and(bo,~a,b);
 endmodule
+
+```
 
 Developed by: VISWAJITH LALITHRAM R.V  
 RegisterNumber: 24000985
